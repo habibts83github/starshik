@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-image: url('C:\Users\PSStudent\Desktop\starships\src\Images\image1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.title{  
+    position: relative;
+    display: inline-table;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;   
+    white-space: nowrap 
+
+}
+
+.nav {
+  background-color: #527ccf ;
+  opacity:0.9;  
+  display: flex;
+  height: 10%;
+  flex-direction: row;
+  align-items:stretch;
+  justify-content: space-evenly;
+    color: rgb(26, 22, 22);
+}
+
+.App-link {
+  color: #e2c30f;
+}
+
+.ships li{
+  display:grid;
+  text-align:left;
+  padding: 10px;
+  border: 5px solid;
+  background-color: rgb(28, 209, 68);
+  opacity: .8;
+  
+}
+.planets li{
+  display:grid;
+  text-align:left;
+  padding: 10px;
+  border: 5px solid;
+  background-color: rgb(58, 212, 91);
+  opacity: .8;
+  
+}
